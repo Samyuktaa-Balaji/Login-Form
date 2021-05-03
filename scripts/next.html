@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	function check() {
+		const fs = require("fs"); 
+  
+		// STEP 1: Reading JSON file 
+		const users = require("./users"); 
+		console.log(users[0].language[0]);
+	}
+</script>
+<body>
+	<button onclick="check()">Submit</button>
+</body>
+</html>

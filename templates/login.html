@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="../styles/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../styles/css/login.css">
+	<script type="text/javascript" src="../scripts/login_signup.js"></script>
+</head>
+<body>
+	<div class="img">
+		<div class="container">
+			<center><h1 style="color: white;">Login Form</h1></center><hr>
+			<form action="#" class="content" name="login_form" method="post">
+			    <p><input type="text" placeholder="Email" name="email" onmouseleave="ValidateEmail(document.login_form.email)" required></p>
+			    <p><input type="password" placeholder="Password" name="psw" onmouseleave="ValidatePassword(document.login_form.psw)" required></p>
+			    <p class="pass"><a href="forgot.html">Forgot password?</a></p>	
+			    <button type="submit" class="btn">Submit</button>
+			</form>
+			<div class="signup">
+				<p>Don't have account?<a href="signup.html">Register Now</a></p>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
